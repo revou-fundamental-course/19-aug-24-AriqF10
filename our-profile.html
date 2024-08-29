@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Our Profile</title>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="our-profile.html">Our Profile</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="#message-us">Message Us</a>
+    </nav>
+
+    <!-- Large Image Section -->
+    <section class="large-image-section">
+        <img src="images/background.jpg" alt="1366x578 Image" class="main-image">
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About</h2>
+        <p>Telkom University is determined to become a research and entrepreneurial university that is beneficial to society. In line with this, we hope to be able to produce graduates who have global competitiveness and are able to create a culture of research and innovation that is useful in improving the quality of life of society, furthermore, able to contribute to national economic development through the development of entrepreneurship.</p>
+    </section>
+
+    <!-- Vision and Mission Section -->
+    <section class="vision-mission">
+        <h2>Vision</h2>
+        <p>To become National Excellence Entrepreneurial University by 2028 that contribute to the fulfillment of sustainable development goals.</p>
+
+        <h2>Mission</h2>
+        <p>To become National Excellence Entrepreneurial University by 2028 that contribute to the fulfillment of sustainable development goals.</p>
+    </section>
+
+    <!-- Message Us Section -->
+    <section id="message-us" class="message-us">
+        <h2>Message Us</h2>
+        <form id="message-form">
+            <label for="name">Nama :</label>
+            <input type="text" id="name" name="name">
+
+            <label for="dob">Tanggal Lahir :</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="gender">Jenis Kelamin :</label>
+            <input type="radio" id="male" name="gender" value="Laki-Laki">
+            <label for="male">Laki-Laki</label>
+            <input type="radio" id="female" name="gender" value="Perempuan">
+            <label for="female">Perempuan</label>
+
+            <label for="message">Pesan :</label>
+            <textarea id="message" name="message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div class="form-output">
+            <p id="output"></p>
+        </div>
+    </section>
+</main>
+</body>
+
+</html>
