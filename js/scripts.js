@@ -1,16 +1,14 @@
 document.getElementById('message-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent the form from submitting normally
-
-    // Get form values
+    event.preventDefault(); 
+    
     const name = document.getElementById('name').value;
     const dob = document.getElementById('dob').value;
     const gender = document.querySelector('input[name="gender"]:checked').value;
     const message = document.getElementById('message').value;
 
-    // Get the current timezone
-    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-    // Create output text
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  
     const outputText = `
         <strong>Submitted Information:</strong><br>
         Name: ${name}<br>
@@ -20,6 +18,5 @@ document.getElementById('message-form').addEventListener('submit', function(even
         Timezone: ${timezone}
     `;
 
-    // Display the result in the output div
     document.getElementById('output').innerHTML = outputText;
 });

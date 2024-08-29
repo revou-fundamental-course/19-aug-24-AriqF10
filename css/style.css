@@ -25,8 +25,8 @@ header {
 .welcome .main-image {
     width: 1366px;
     height: 578px;
-    max-width: 100%; /* Ensures the image is responsive */
-    height: auto;   /* Maintains aspect ratio */
+    max-width: 100%; 
+    height: auto;   
     margin-top: 20px;
 }
 
@@ -70,8 +70,8 @@ nav ul li a {
 .city img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Makes the image round */
-    object-fit: cover; /* Ensures the image covers the circle without distortion */
+    border-radius: 50%; 
+    object-fit: cover; 
 }
 
 .city p {
@@ -163,8 +163,8 @@ form input, form textarea, form button {
 /* Navbar */
 nav {
     display: flex;
-    justify-content: flex-end; /* Aligns the navbar to the right */
-    background-color: #333; /* Example background color */
+    justify-content: flex-end; 
+    background-color: #333; 
     padding: 10px 20px;
 }
 
@@ -178,10 +178,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #575757; /* Changes background color on hover */
-    border-radius: 5px; /* Adds rounded corners on hover */
+    background-color: #575757; 
+    border-radius: 5px; 
 }
-
-/* Other styles as needed */
-
-
